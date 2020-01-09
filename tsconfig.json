@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "inlineSourceMap": true,
+        "target": "ES2018",
+        "resolveJsonModule": true,
+        "moduleResolution": "Node",
+        "outDir": "build"
+    },
+    "include": [
+        "src"
+    ]
+}

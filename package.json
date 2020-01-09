@@ -1,0 +1,15 @@
+{
+	"name": "doris",
+	"version": "0.0.0",
+	"author": "Zack Guard <zacharyguard@gmail.com>",
+	"license": "MIT",
+	"scripts": {
+		"build": "node ./bin/copy.js && tsc && rollup --config"
+	},
+	"devDependencies": {
+		"@rollup/plugin-json": "^4.0.1",
+		"rollup": "^1.29.0",
+		"typescript": "^3.7.4",
+		"watch": "^1.0.2"
+	}
+}
